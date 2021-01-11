@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>Забрать домой</h2>
+    <p>Оставьте информацию о себе. Мы позвоним вам и<br>
+        договоримся, когда вы сможете забрать себе<br>
+        питомца.</p>
+    <form action="forms.html" method="POST">
+        <input type="text" id="name-surname" name="name-surname" placeholder="Фамилия и имя" ><br>
+        <input type="tel" id="phone-numberr" name="phone-number" placeholder="Номер телефона" maxlength="13" required><br>
+        <label id="phone-numberr">Обязательное поле для заполнения</label><br><br>
+        <textarea id="remarks" name="remarks" placeholder="Замечания" cols="20" rows="5"></textarea><br>
+        
+        <p>Если у вас есть вопросы, можете позвонить нам:<br>
+        +375 (33) 6237879  Лена<br>
+        +375 (29) 7877791  Ольга<br>
+        +375 (29) 5837015  Рита</p>
+        <button type="submit" >Отправить</button>
+        <button type="reset" >Отмена</button>
+    </form>
+
+    <h2>Забрать на передержку</h2>
+    <p>Оставьте информацию о себе. Мы позвоним вам<br>
+        и договоримся, когда вы сможете забрать себе<br>
+        питомца на передержку.</p>
+    <form action="forms.html" method="POST">
+        <input type="text" id="name-surname" name="name-surname" placeholder="Фамилия и имя" ><br>
+        <input type="tel" id="phone-numberr" name="phone-number" placeholder="Номер телефона" maxlength="13" required><br>
+        <label id="phone-numberr">Обязательное поле для заполнения</label><br><br>
+        <textarea id="remarks" name="remarks" placeholder="Замечания" cols="20" rows="5"></textarea><br>
+        
+        <p>Если у вас есть вопросы, можете позвонить нам:<br>
+        +375 (33) 6237879  Лена<br>
+        +375 (29) 7877791  Ольга<br>
+        +375 (29) 5837015  Рита</p>
+        <p>Наши волонтеры будут активно искать будущий дом<br>
+            хвостику, пока вы помогаете нам с передержкой.<br>
+            Спасибо за помощь!</p>
+        <button type="submit" >Оставить заявку</button>
+        <button type="reset" >Отмена</button>
+    </form> 
+    
+    <h2>Автопомощь</h2>
+    <p>Заявка</p>
+    <p>Отправьте нам заявку о том, что готовы помочь.<br>
+        Когда нам будет необходима помощь в<br>
+        транспортировке, мы позвоним вам.</p>
+    <form action="forms.html" method="POST">
+        <input type="text" id="name-surname" name="name-surname" placeholder="Фамилия и имя" ><br>
+        <input type="tel" id="phone-numberr" name="phone-number" placeholder="Номер телефона" maxlength="13" required><br>
+        <label id="phone-numberr">Обязательное поле для заполнения</label><br><br>
+        <textarea id="remarks" name="remarks" placeholder="Опишите, как вы сможете нам помочь и удобное время для вас" cols="20" rows="5"></textarea><br>
+        <button type="submit" >Оставить заявку</button>
+        <button type="reset" >Отмена</button>
+    </form>
+
+    <h2>Волонтерство</h2>
+    <p>Заявка</p>
+    <p>Отправьте нам заявку о том, что готовы помочь. Когда нам будет<br>
+        необходима помощь, мы позвоним вам.</p>
+    <form action="forms.html" method="POST">
+        <input type="text" id="name-surname" name="name-surname" placeholder="Фамилия и имя" ><br>
+        <input type="tel" id="phone-numberr" name="phone-number" placeholder="Номер телефона" maxlength="13" required><br>
+        <label id="phone-numberr">Обязательное поле для заполнения</label><br><br>
+        
+        <p><input type="radio" name="help-time" value="always">Хочу помогать на постоянной основе (расписание<br>
+            можно подобрать так, как будет вам удобно)</p>
+        <p><input type="radio" name="help-time" value="sometimes">Готов помогать иногда. Хочу выбрать удобное для меня<br>
+            время</p>
+
+        <textarea id="remarks" name="remarks" placeholder="Замечания" cols="20" rows="5"></textarea><br>
+        <button type="submit" >Оставить заявку</button>
+        <button type="reset" >Отмена</button>
+    </form>
+</body>
+</html>
